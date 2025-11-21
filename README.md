@@ -37,15 +37,16 @@
 .
 ├── server.py              # FastAPI 서버 및 WebSocket 엔드포인트
 ├── trainer.py             # Trainer 클래스 (모델 학습 로직)
-├── test.py                # 독립 실행 가능한 학습 스크립트
 ├── check_gpu.py           # GPU 환경 확인 스크립트
 ├── pyproject.toml         # Python 의존성 관리 (uv)
 ├── uv.lock                # 의존성 잠금 파일
+├── README.md              # 프로젝트 문서
+├── dashboard_screenshot.png  # 대시보드 스크린샷
 └── frontend/              # React 프론트엔드
     ├── src/
     │   ├── App.jsx        # 메인 컴포넌트 (폼, 차트, 로그)
     │   ├── App.css        # 스타일시트
-    │   └── index.css      # 전역 스타일
+    │   └── main.jsx       # 엔트리 포인트
     └── package.json       # Node.js 의존성
 ```
 
